@@ -1,0 +1,124 @@
+.container {
+  background: linear-gradient(45deg, rgb(73, 160, 248), black);
+  width: 600px;
+  padding-bottom: 40px;
+  padding-top: 1px;
+  border-radius: 20px;
+  margin-top: 100px;
+  box-sizing: border-box;
+}
+
+.app-name {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 36px;
+  color: white;
+}
+
+input {
+  width: 280px;
+  height: 40px;
+  color: black;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+}
+
+button {
+  padding: 17px 30px;
+  margin: 0px 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(0, 72, 255);
+}
+
+button:hover {
+  background: linear-gradient(45deg, rgb(73, 160, 248), black);
+  border: 1px solid white;
+  color: white;
+  transition: all 0.5s;
+}
+
+.text-color {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 22px;
+  margin: 25px;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.copyright span {
+  color: yellow;
+}
+
+.copyright b {
+  color: red;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin-top: 50px;
+    padding: 20px;
+  }
+
+  .app-name {
+    font-size: 28px;
+  }
+
+  input {
+    width: 90%;
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  button {
+    width: 90%;
+    padding: 15px 0;
+    font-size: 18px;
+  }
+
+  .text-color {
+    font-size: 18px;
+    margin: 15px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px;
+  }
+
+  .app-name {
+    font-size: 20px;
+  }
+
+  input {
+    width: 70%;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  button {
+    width: 70%;
+    padding: 15px 0;
+    font-size: 16px;
+  }
+
+  .text-color {
+    font-size: 12px;
+    margin: 10px 0;
+  }
+}
