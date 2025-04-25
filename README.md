@@ -2,13 +2,6 @@
 
 This is a **Weather App** built with **React.js** that allows users to check the current weather conditions of any city by entering its name. The app fetches real-time weather data using the OpenWeatherMap API and displays relevant details such as temperature, weather description, and an icon representing the current weather.
 
-## 🚀 Live Demo
-
-> [Coming Soon...] <!-- Add your deployment link here -->
-
-## 🖼️ Screenshot
-
-![Weather App Screenshot](./screenshot.png) <!-- Replace with actual screenshot file path -->
 
 ---
 
